@@ -1,7 +1,8 @@
 # Surface_Duo_2_GCam
-Google Camera (GCam) on Surface Duo 2. Finally found a working GCam for the Microsoft Surface Duo 2.
 
-Current Version: AGC8.4.300_V6 by bigkaka.
+Google Camera (GCam) for the Microsoft Surface Duo 2. I AM NOT THE DEVELOPER!
+
+Current version: AGC8.4.300_V6 by bigkaka.
 
 Download of the latest GCam APK is here possible:
 
@@ -15,6 +16,7 @@ The lenses of the Surface Duo 2 require a different noise model, so i created on
 https://www.celsoazevedo.com/files/android/morgenman/noise-modeller-how-to/
 
 The noise files can be found in the folder Noise_Models.
+
 
 # Setup
 
@@ -30,3 +32,8 @@ The noise files can be found in the folder Noise_Models.
 10. Go back until you are in the "Lens Setting" menu.
 11. Repeat step 5 - 7 for "Wide (0.6x)" with the "wide_noise_model.c" file.
 12. Enjoy GCam on your SD2.
+
+
+# Notes
+
+If you can create a better Noise Model or find better settings for the SD2, please let me know.

@@ -4,7 +4,7 @@ Google Camera (GCam) for the Microsoft Surface Duo 2. I AM NOT THE DEVELOPER!
 
 Current version: AGC8.4.300_V6 by bigkaka.
 
-Download of the latest GCam APK is here possible:
+Download the latest GCam APK from here:
 
 https://www.celsoazevedo.com/files/android/google-camera/dev-BigKaka/f/dl4/
 
@@ -28,11 +28,15 @@ The noise files can be found in the folder Noise_Models.
 6. Click on Noise Model and select "Import Noise Model" and select the "main_noise_model.c".
 7. Select "Noise Model" and click on the imported "main_noise_model.c".
 8. Go back until you are in the "Lens Setting" menu.
-9. Repeat step 5 - 7 for "Tele (1.9x)" with the "tele_noise_model.c" file.
-10. Go back until you are in the "Lens Setting" menu.
-11. Repeat step 5 - 7 for "Wide (0.6x)" with the "wide_noise_model.c" file.
-12. Enjoy GCam on your SD2.
-
+9. Select "Tele (1.9x)" and scroll down to "Color Management".
+10. Click on Noise Model and select "Import Noise Model" and select the "tele_noise_model.c".
+11. Select "Noise Model" and click on the imported "tele_noise_model.c".
+12. Go back until you are in the "Lens Setting" menu.
+13. Select "Wide (0.6x)" and scroll down to "Color Management".
+14. Click on Noise Model and select "Import Noise Model" and select the "wide_noise_model.c".
+15. Select "Noise Model" and click on the imported "wide_noise_model.c".
+16. Exit the Settings Menu and enjoy GCam on your SD2.
+ 
 
 # Notes
 

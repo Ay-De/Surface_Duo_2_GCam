@@ -67,8 +67,20 @@ Settings - Processing Functions - Noise Model - Main Camera - Set Noise Model "S
 
 ## Notes
 
-If you find better settings for the Surface Duo 2 GCam, please let me know and I will make an update here. More Info can be found in the Telegram Discussion Group. [2]
+If you find better settings for the Surface Duo 2 GCam, please let me know and I will make an update here (just make a pull request). More Info can be found in the Telegram Discussion Group. [2]
 
+
+## Additional Resources
+As i said, the image quality of the GCam Camera is highly dependant on the used hardware and there is no best settings. The image quality of the GCam app has to be fine tuned to the hardware of the Surface Duo 2. One way to do this is the so called "Lib patcher", which modifies the postprocessing of the GCam app.
+
+Here are some further Links about the GCam App, the settings and the Lib patcher:
+https://www.celsoazevedo.com/files/android/p/f/2021/05/GCam-Handbook.pdf
+
+https://forum.level1techs.com/t/photography-on-android-modified-gcam-settings-explained-my-own-curves/170681
+
+https://www.celsoazevedo.com/files/android/google-camera/dev-bsg/help/2/
+
+https://www.reddit.com/r/GCamPort/comments/lsb9jo/comment/govre4f/?utm_source=share&utm_medium=web2x&context=3
 
 
 ##Sources

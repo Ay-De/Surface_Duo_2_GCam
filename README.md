@@ -83,7 +83,7 @@ https://www.celsoazevedo.com/files/android/google-camera/dev-bsg/help/2/
 https://www.reddit.com/r/GCamPort/comments/lsb9jo/comment/govre4f/?utm_source=share&utm_medium=web2x&context=3
 
 
-##Sources
+## Sources
 
 [1]: https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl11/
 [2]: https://t.me/Redmi10XGCamChat

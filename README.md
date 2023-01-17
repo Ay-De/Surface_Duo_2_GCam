@@ -2,9 +2,53 @@
 
 Google Camera (GCam) for the Microsoft Surface Duo 2. These are the notes I collected while trying out several GCam mods on my Surface Duo. The here noted info’s are probably incomplete and may not work on other devices, as my focus is only the Surface Duo 2. 
 
-I AM NOT THE DEVELOPER OF ANY HERE LISTED MODS!
+I am not the developer of the here listed GCam Ports!
 
-## Updated 16.01.2023 see at the end of the page.
+## Update 16.01.2023
+
+After playing around with some settings, and with the help of DaleRoss and Даня, i found some good Settings for the AGC GCam AGC_8.4.300.18_V9.2.
+
+Setup:
+
+Download the "20230116_mssd2_v1.agc" config, and the noise models "tele_noise_model.c" and "wide_noise_model.c" from the Noise Models folder to your phone.
+
+Install the AGC GCam AGC_8.4.300.18_V9.2 from above on your MS Surface Duo 2.
+
+Launch the GCam app.
+
+Swype down and klick on "More settings".
+
+Click on "Configs" - "Import" - And select the "20230116_mssd2_v1.agc" file. Afterwards, go back to the main screen.
+
+Swype down again and click on "Load Configs" and select the downloaded "20230116_mssd2_v1.agc" config.
+
+
+Next, Swype down again and click on "More settings" and load the following Noise Models:
+
+Lens Setting - Main (1.0x) - Noise Model - Noise Model - "15. IMX563 - S21USnapdragon" should be already selected.
+
+Lens Setting - Tele (1.9x) - Noise Model - "Import Noise Model" and select "tele_noise_model.c". Above under Noise Model should now be the "tele_noise_model.c" selected.
+
+Lens Setting - Wide (0.6x) - Noise Model - "Import Noise Model" and select "wide_noise_model.c". Above under Noise Model should now be the "wide_noise_model.c" selected.
+
+The setup is basically finished now. In the top right corner is a settings menue with quick settings available. If you click on this, you will see 9 possible quick settings. These settings are saved for each lens. So, if you switch between tele and main lens, "config 1" will be different and independed from each other.
+I did change some settings in the menu regarding image post processing. The result is a slower HDR+ Enhanced mode but a bit better image quality in my opinion.
+The middle config "Custom" should be activated at all times. These are my custom settings for each of the three back lenses. "Black&White" is the same config with the Leica Black and White colorprofile to get well, Black and White images. This only applies to the main lens.
+
+Some notes regarding the config:
+The wide lens settings has the name "WorkinProgress" because i haven't been able yet to get rid of the chromatic aberration. The wide lens sometimes produces a purple color on the edges, so keep this in mind if you use the wide angle lens. It doesn't happen always, but it happens.
+
+If you find better settings, please open a pull request or open an issue and let me know. Thanks.
+
+I also found some Bugs in AGC 8.4 9.2:
+
+-Photo Sphere is not working. The Viewfinder freezes.
+
+-Portrait Mode is also not working, again the Viewfinder freezes.
+
+
+AGC is currently working on the 8.6 GCam which fixes these issues, but the custom settings are not entirely ported over yet, so you should have some patience.
+
 
 ## GCam Mods
 There are two working mods I tested.
@@ -67,49 +111,6 @@ Settings - Processing Functions - Noise Model - Main Camera - Set Noise Model "S
 ## Notes
 
 If you find better settings for the Surface Duo 2 GCam, please let me know and I will make an update here (just make a pull request). More Info can be found in the Telegram Discussion Group. [2]
-
-
-## Update 16.01.2023
-
-After playing around with some settings, and with the help of DaleRoss and Даня, i found some good Settings for the AGC GCam AGC_8.4.300.18_V9.2.
-
-Setup:
-
-Download the "20230116_mssd2_v1.agc" config, and the noise models "tele_noise_model.c" and "wide_noise_model.c" from the Noise Models folder to your phone.
-
-Install the AGC GCam AGC_8.4.300.18_V9.2 from above on your MS Surface Duo 2.
-
-Launch the GCam app.
-
-Swype down and klick on "More settings".
-
-Click on "Configs" - "Import" - And select the "20230116_mssd2_v1.agc" file. Afterwards, go back to the main screen.
-
-Swype down again and click on "Load Configs" and select the downloaded "20230116_mssd2_v1.agc" config.
-
-
-Next, Swype down again and click on "More settings" and load the following Noise Models:
-
-Lens Setting - Main (1.0x) - Noise Model - Noise Model - "15. IMX563 - S21USnapdragon" should be already selected.
-
-Lens Setting - Tele (1.9x) - Noise Model - "Import Noise Model" and select "tele_noise_model.c". Above under Noise Model should now be the "tele_noise_model.c" selected.
-
-Lens Setting - Wide (0.6x) - Noise Model - "Import Noise Model" and select "wide_noise_model.c". Above under Noise Model should now be the "wide_noise_model.c" selected.
-
-The setup is basically finished now. In the top right corner is a settings menue with quick settings available. If you click on this, you will see 9 possible quick settings. These settings are saved for each lens. So, if you switch between tele and main lens, "config 1" will be different and independed from each other.
-I did change some settings in the menu regarding image post processing. The result is a slower HDR+ Enhanced mode but a bit better image quality in my opinion.
-The middle config "Custom" should be activated at all times. These are my custom settings for each of the three back lenses. "Black&White" is the same config with the Leica Black and White colorprofile to get well, Black and White images. This only applies to the main lens.
-
-Some notes regarding the config:
-The wide lens settings has the name "WorkinProgress" because i haven't been able yet to get rid of the chromatic aberration. The wide lens sometimes produces a purple color on the edges, so keep this in mind if you use the wide angle lens. It doesn't happen always, but it happens.
-
-If you find better settings, please open a pull request or open an issue and let me know. Thanks.
-
-I also found some Bugs in AGC 8.4 9.2:
--Photo Sphere is not working. The Viewfinder freezes.
--Portrait Mode is also not working, again the Viewfinder freezes.
-
-AGC is currently working on the 8.6 GCam which fixes these issues, but the custom settings are not entirely ported over yet, so you should have some patience.
 
 
 ## Additional Resources

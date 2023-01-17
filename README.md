@@ -4,7 +4,7 @@ Google Camera (GCam) for the Microsoft Surface Duo 2. These are the notes I coll
 
 I AM NOT THE DEVELOPER OF ANY HERE LISTED MODS!
 
-## Update 16.01.2023. See at the end of the page.
+## Updated 16.01.2023. See at the end of the page.
 
 ## GCam Mods
 There are two working mods I tested.

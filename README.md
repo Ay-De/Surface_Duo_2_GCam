@@ -12,11 +12,9 @@ Going forward, i recommend to stay on the LMC R15 GCam Port for now, as i probab
 Current configs can be downloaded from the Release page to the right, while additional informations regarding the Settings and so on can be found in the Wiki page.
 
 
-## Current status
+## Recommended GCam Port
 
-Recommended GCam Port (Based on Google Camera 8.4):
-
-LMC R15 by Hasli
+LMC R15 by Hasli (Based on Google Camera 8.4)
 
 [LMC8.4_R15_glens.apk](https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl11/)
 

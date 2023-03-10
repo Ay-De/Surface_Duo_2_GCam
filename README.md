@@ -18,7 +18,7 @@ LMC R15 by Hasli (Based on Google Camera 8.4)
 
 [LMC8.4_R15_glens.apk](https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl11/)
 
-(I recommend the following Package as it enables the Google Lens feature under Modes
+I recommend this Package as it enables the Google Lens feature under Modes.
 
 
 ## Notes

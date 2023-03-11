@@ -26,6 +26,6 @@ I recommend this Package as it enables the Google Lens feature under Modes.
 If you find better settings for the Surface Duo 2 GCam, please let me know and I will make an update here (just make a pull request).
 
 
-Additional Note Regarding GCam 8.6 or 8.7:
+Additional Note regarding GCam 8.6 or 8.7:
 
-While there are some GCam Ports of the current Google Camera version 8.7, these are still early builds. They all have the problem, that they don't save an image if you take Night Sight or HDR+Enhanced images. The setting, which will fix this bug (Skip Metadata Check) isn't currently available on these early builds.
+While there are some GCam Ports of the current Google Camera version 8.7 (and the slightly older 8.6), these are still early builds. They all have the problem that they don't save an image if you take Night Sight or HDR+Enhanced images. The setting which will fix this bug (Skip Metadata Check) isn't currently available on these early builds.

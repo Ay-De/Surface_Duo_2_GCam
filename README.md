@@ -14,18 +14,21 @@ Current configs can be downloaded from the Release page to the right, while addi
 
 ## Recommended GCam Port
 
-LMC R15 by Hasli (Based on Google Camera 8.4)
+LMC 8.4 R18 by Hasli (Based on Google Camera 8.4)
 
-[LMC8.4_R15_glens.apk](https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl11/)
+[LMC8.4_R18F1_Google_Lens.apk](https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl14/)
 
 I recommend this Package as it enables the Google Lens feature under Modes.
 
+Please check out the release page for the additional required xml settings file.
+
+[Link to the settings file](https://github.com/Ay-De/Surface_Duo_2_GCam/releases)
 
 ## Notes
 
 If you find better settings for the Surface Duo 2 GCam, please let me know and I will make an update here (just make a pull request).
 
 
-Additional Note regarding GCam 8.6 or 8.7:
+Additional Note regarding GCam 8.6 and newer versions:
 
-While there are some GCam Ports of the current Google Camera version 8.7 (and the slightly older 8.6), these are still early builds. They all have the problem that they don't save an image if you take Night Sight or HDR+Enhanced images. The setting which will fix this bug (Skip Metadata Check) isn't currently available on these early builds.
+While there are some GCam Ports of the current Google Camera version 8.7 (and newer like 9.1), these are still early builds. They all have UI bugs or bugs while capturing HDR+/Night Sight images. I recommend staying on this Port for now, as it is the most stable and functional GCam Build on the Surface Duo 2.
